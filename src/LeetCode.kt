@@ -102,3 +102,34 @@ M      -      1000
 //    ob1.romanToInt(roman)
 //
 //}
+
+//Longest Prefix
+//class Solution {
+//    fun longestCommonPrefix(strs: Array<String>): String {
+//        var longestCommonPrefix = ""  // [flower, flows, flaw] -> fl
+//        for (elements in strs){
+//            val element = elements
+//            var store = ""
+//            for (str in element){
+//                store += str
+//            }
+//        }
+//        return ""
+//    }
+//}
+//fun main() {
+//    val ob1 = Solution()
+//    print("Print size of an array : ")
+//    val size = readln().toInt()
+//    val array = Array<String>(size, { size -> size.toString()})
+//    for ( i in 0..array.size - 1){
+//        print("Enter Array Elements : ")
+//        val element = readln()
+//        array[i] = element.toLowerCase()
+//    }
+//    println("Index 0 - " + array[0])
+//    println("Index 1 - " + array[1])
+//    ob1.longestCommonPrefix(
+//        array
+//    )
+//}
